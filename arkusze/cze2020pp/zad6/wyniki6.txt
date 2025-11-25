@@ -1,0 +1,22 @@
+ZADANIE 6.1
+A	28
+B	30
+C	31
+D	33
+E	37
+F	32
+G	31
+H	28
+
+ZADANIE 6.2
+Wyst. Najczęściej	77
+
+
+ZADANIE 6.3
+niedostateczny	37%
+dostateczny 	11%
+dobry	28%
+celujący	13%
+bardzo dobry	10%
+
+

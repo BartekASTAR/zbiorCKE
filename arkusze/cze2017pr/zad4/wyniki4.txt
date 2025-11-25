@@ -1,0 +1,15 @@
+ZADANIE 4.1
+18
+
+ZADANIE 4.2
+5
+
+ZADANIE 4.3
+Punnkt1: x:9901 y:593
+Punkt2: x:35 y:9583
+Dystans: 13347
+
+ZADANIE 4.4
+wewnatrz kwadratu: 249
+na bokach kwadratu: 2
+na zewnatrz kwadratu749

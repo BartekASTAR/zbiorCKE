@@ -1,0 +1,149 @@
+ZADANIE 5.1
+film
+fitness
+fotografia
+fizyka
+
+ZADANIE 5.2
+Beata
+Dorota
+Maggia
+Stefania
+Maria
+Maria
+Julia
+Beata
+Anna
+Aneta
+Sylwia
+Cecylia
+Marta
+Maia
+Weronika
+Maria
+Margareta
+Indira
+Fiona
+Matilda
+Aleksandra
+Margareta
+Daria
+Bianca
+Gabriela
+Sandra
+Marta
+Fiona
+Monica
+Magdalena
+Hanna
+Agnieszka
+Honorata
+Ineza
+Lidia
+Nadia
+Weronica
+Renata
+Wiktoria
+Emmanuella
+Naskia
+Jasmina
+Oksana
+Karolina
+Waleria
+Katarzyna
+Katarzyna
+Nadia
+Maria
+Magda
+Malgorzata
+Naskia
+Genowefa
+Anna
+Alicja
+Natasza
+Marta
+Bianca
+Rita
+Beata
+Monica
+Zuzanna
+Daria
+Electra
+Maria
+Anna
+Veronica
+Nerinka
+Cecylia
+Kunegunda
+Nalia
+Mariola
+Genowefa
+Natasza
+Helena
+Dorota
+Lena
+Jagoda
+Krystyna
+Justyna
+Anna
+Katarzyna
+Agnieszka
+Jolanta
+Barbara
+Izabela
+Anna
+Lidia
+Honorata
+Ewa
+Ludmila
+Honorata
+Paulina
+Anita
+Marta
+Anna
+Wioletta
+Mariola
+Katarzyna
+Barbara
+Aleksandra
+Marta
+Ewa
+Marzena
+Anna
+
+ZADANIE 5.3
+Anna	Karenina
+Bianca	Gelati
+Bogdan	Pamuk
+Emmanuella	Gerone
+Ewa	Aniol
+Ewa	Florczak
+John	Brax
+Justyna	Moroz
+Kacper	Makowski
+Maciej	Niedorzeczny
+Magda	Gruzin
+Marta	Lewkowicz
+Michal	Cabeanu
+Michal	Persen
+Miroslaw	Czort
+Monica	Bartolomeo
+Monica	Fantutti
+Nalia	Orzel
+Olaf	Gliwicki
+Paul	Neuman
+Pawel	Jadczak
+Robert	Workucki
+Tomasz	Gorny
+Tymon	Neuf
+Wioletta	Graczyk
+Zuzanna	Mincerz
+Zwonimir	Kusturica
+
+ZADANIE 5.4
+Ewa	Aniol	10
+Lena	Szaposznikowa	10
+Monica	Fantutti	10
+
+ZADANIE 5.5
+film	38
