@@ -1,0 +1,4 @@
+4.3
+2 prostokaty: 79506
+3 prostokaty: 118786
+5 prostokatow: 180895
