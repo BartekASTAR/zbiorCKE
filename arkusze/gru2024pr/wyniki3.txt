@@ -1,0 +1,21 @@
+3.1
+Liczba kwadratow: 20
+Pirwszy kwadrat: 4489
+3.2
+2730
+8190
+2310
+4620
+7770
+8610
+4830
+4290
+6930
+6630
+
+
+6.3
+Mniejsze: 947
+Wikeksze: 1052
+Rowne: 1
+Lista rownych: [6174]

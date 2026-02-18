@@ -5,6 +5,33 @@ print(file)
 
 ans = open("wyniki4.txt", "w")
 
+#4.1
+pola = []
+for i in file:
+    pola.append(i[0] * i[1])
+
+ans.write(f"Min: {min(pola)}\nMax: {max(pola)}")
+
+#4.2
+max_ciag = 0
+len_ciag = 0
+last_ciag = 0
+last_max_ciag = []
+for i in range(len(file)):
+    if len_ciag == 0:
+        len_ciag += 1
+        last_ciag = file[i]
+        continue
+    if file[i][0] <= file[i-1][0] and file[i][1] <= file[i-1][1]:
+        len_ciag += 1
+        last_ciag = file[i]
+    else:
+        if len_ciag > max_ciag:
+            max_ciag = len_ciag
+            last_max_ciag = last_ciag
+        len_ciag = 0
+ans.write(f"\n4.2\n{max_ciag+1} {last_max_ciag}")
+
 #4.3
 heights_dict = {}
 for i in file:
