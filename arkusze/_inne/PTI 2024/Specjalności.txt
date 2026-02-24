@@ -1,0 +1,5 @@
+nr specjalnoœci; specjalnoœæ
+1;tkactwo
+2;hafciarstwo
+3;malarstwo
+4;rzeŸbiarstwo
