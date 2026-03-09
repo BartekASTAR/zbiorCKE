@@ -1,4 +1,4 @@
-with open("odbiorcy_przyklad.txt", "r") as f:
+with open("odbiorcy.txt", "r") as f:
     file = [line.strip() for line in f.readlines()]
     file = list(map(int, file))
 
@@ -8,8 +8,8 @@ ans = open("wyniki4.txt", "w")
 ans.write(f"4.2\n")
 computers = [i for i in range(1,len(file)+ 1)]
 counter = 0
-for i in file:
-    if i not in computers:
+for i in computers:
+    if i not in file:
         counter += 1
 ans.write(f"{counter}\n\n")
 
@@ -22,8 +22,6 @@ cycle.append(file)
 def print_cycle():
     for i in cycle:
         print(i)
-
-print_cycle()
 
 for i in range(2,20):
     pointer = 0
@@ -48,26 +46,26 @@ ans.write(f"4.3\n{min_runda} {min_pakiet}")
 
 
 
-print_cycle()
+
 
 # 4.4
+ans.write(f"\n\n4.4\n")
 cycle = []
 
 cycle.append(computers)
 cycle.append(file)
 
-print_cycle()
-
 computers_dict = {}
 for i in range(1,len(file)+ 1):
-    computers_dict[i] = set()
+    computers_dict[i] = 0
 
-for i, v in enumerate(file):
-    computers_dict[i+1].add(v)
+for i in file:
+    computers_dict[i] += 1
 
+ans.write(f"{max(computers_dict.values())} ")
 
-
-for i in range(2, 10):
+counter = 2
+for i in range(2, 9):
     pointer = 0
     row = [0 for _ in range(len(file))]
     for j in range(len(file)):
@@ -77,4 +75,13 @@ for i in range(2, 10):
                 break
         pointer += 1
     cycle.append(row)
+    computers_dict = {}
+    for i in range(1, len(file) + 1):
+        computers_dict[i] = 0
+    for l in row:
+        computers_dict[l] += 1
+    if counter == 2 or counter == 4 or counter == 8:
+        ans.write(f"{max(computers_dict.values())} ")
+    counter += 1
 
+print_cycle()
