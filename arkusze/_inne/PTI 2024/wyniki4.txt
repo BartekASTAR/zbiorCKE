@@ -1,0 +1,14 @@
+4.1
+32
+
+4.2
+14 ['Koci_Klimat9', 'Koci_Klimat9', 'Zefirek23', 'Zefirek23', 'iskierka15', 'iskierka15', 'SkrzydlateSzalenstwa', 'SkrzydlateSzalenstwa', 'Rybenka2', 'Rybenka2', 'wole_psy123', 'wole_psy123', 'MiskaPelnaPrzysmakow', 'MiskaPelnaPrzysmakow']
+
+4.3
+79
+
+4.4
+mruczek_i_mucha
+
+4.5
+ZwierzakowySwiat
