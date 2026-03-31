@@ -1,6 +1,4 @@
 #2.1
-from arkusze.cze2024pr.zad1 import tablica
-
 counter = 0
 def czy_mnijeszy(n,s,k1,k2):
     global counter
@@ -23,9 +21,11 @@ def czy_mnijeszy(n,s,k1,k2):
     else:
         return False
 
+print("2.1")
 print(czy_mnijeszy(len("aaaaaabb"), "aaaaaabb", 1,2 ), counter)
 
 #2.2
+print("\n\n2.2")
 with open("slowa1.txt", "r") as s1:
     slowa1 = [line.strip() for line in s1.readlines()]
 with open("slowa2.txt", "r") as s2:
@@ -44,6 +44,7 @@ for slowa in [slowa1, slowa2, slowa3]:
         print("NIE")
 
 #2.3
+print("\n\n2.3")
 s = "mascarpone"
 n = len(s)
 
@@ -51,8 +52,28 @@ tablica_suffixow = [s[i:] for i in range(n)]
 indeksy_suffixow = [i+1 for i in range(n)]
 print(tablica_suffixow)
 print(indeksy_suffixow)
-for i in range(n-1):
+for i in range(n):
     for j in range(n-i-1):
-        if not czy_mnijeszy(n,s,i,i+1):
-            indeksy_suffixow[i], indeksy_suffixow[i + 1] = indeksy_suffixow[i + 1], indeksy_suffixow[i]
+        if not czy_mnijeszy(n,s,indeksy_suffixow[j],indeksy_suffixow[j + 1]):
+            indeksy_suffixow[j], indeksy_suffixow[j + 1] = indeksy_suffixow[j + 1], indeksy_suffixow[j]
 print(indeksy_suffixow)
+
+#2.4
+print("\n\n2.4")
+with open("slowa4.txt", "r") as s4:
+    slowa4 = [line.strip().split() for line in s4.readlines()]
+
+for i in slowa4:
+    s = i[1]
+    n = len(s)
+    tablica_suffixow = [s[i:] for i in range(n)]
+    indeksy_suffixow = [i+1 for i in range(n)]
+    #print(tablica_suffixow)
+    #print(indeksy_suffixow)
+    for i in range(n):
+        for j in range(n-i-1):
+            if not czy_mnijeszy(n,s,indeksy_suffixow[j],indeksy_suffixow[j + 1]):
+                indeksy_suffixow[j], indeksy_suffixow[j + 1] = indeksy_suffixow[j + 1], indeksy_suffixow[j]
+                tablica_suffixow[j], tablica_suffixow[j+1] = tablica_suffixow[j+1], tablica_suffixow[j]
+    #print(indeksy_suffixow)
+    print(tablica_suffixow[0])
