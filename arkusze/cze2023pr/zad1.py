@@ -32,4 +32,4 @@ def iter_iloczyn(x,y):
         y = y // 2
     return z
 
-print(iter_iloczyn(0,112))
+print(iter_iloczyn(0,3))
