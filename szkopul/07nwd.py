@@ -5,7 +5,7 @@ def nwd(a,b):
 
 def nwd_print(a,b, iloczyn):
     if b == 0:
-        print(f"NWD: {a}\nNWM: {int(iloczyn/a)}\n")
+        print(f"NWD: {a}\nNWM: {(iloczyn//a)}\n")
         return a
     print(f"NWD({a}, {b}) = NWD({b}, {a % b})")
     return nwd_print(b, a % b, iloczyn)
