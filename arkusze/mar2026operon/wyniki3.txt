@@ -1,0 +1,13 @@
+3.1
+Liczba wagonow pierwszych: 261
+Liczba wagonow o wadze 41: 48
+
+3.2
+Numer najdluzszego pociagu: 1041
+Dlugosc pociagu: 83
+Suma wag wagonow: 4159
+
+3.3
+Numer pociagu: 1035
+Najczestsza nosnosc: 53
+Liczba max nosnosc: 7
