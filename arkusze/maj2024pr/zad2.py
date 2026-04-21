@@ -19,4 +19,3 @@ counter = 0
 print(cyfry(542102), counter)
 counter = 0
 print(cyfry(87654321012345678), counter)
-
